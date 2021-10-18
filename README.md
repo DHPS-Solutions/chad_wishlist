@@ -1,2 +1,2 @@
 # chad_wishlist
-The only whishlist that everyone wants you chad
+The only wishlist that everyone wants you chad
