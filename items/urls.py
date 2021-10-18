@@ -5,6 +5,6 @@ from items.views import ItemViewSet
 
 
 urlpatterns = [
-    path('', ItemViewSet.as_view({'get': 'list'})),
+    path('', ItemViewSet.as_view({'get': 'list', 'post':'create'})),
 
 ]

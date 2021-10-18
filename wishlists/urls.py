@@ -4,6 +4,6 @@ from wishlists.views import WishlistViewSet
 
 
 urlpatterns = [
-    path('', WishlistViewSet.as_view({'get': 'list'})),
+    path('', WishlistViewSet.as_view({'get': 'list', 'post':'create'})),
 
 ]
