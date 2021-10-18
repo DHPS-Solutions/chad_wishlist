@@ -1,3 +1,9 @@
 from django.contrib import admin
+from django.contrib.admin.options import ModelAdmin
 
-# Register your models here.
+from wishlists.models import Wishlist
+
+
+@admin.register(Wishlist)
+class PictureAdmin(ModelAdmin):
+    base_model = Wishlist

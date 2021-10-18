@@ -1,3 +1,9 @@
 from django.contrib import admin
+from django.contrib.admin.options import ModelAdmin
 
-# Register your models here.
+from items.models import Item
+
+
+@admin.register(Item)
+class PictureAdmin(ModelAdmin):
+    base_model = Item
