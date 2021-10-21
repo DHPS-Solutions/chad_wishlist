@@ -5,5 +5,5 @@ from wishlists.models import Wishlist
 
 
 @admin.register(Wishlist)
-class PictureAdmin(ModelAdmin):
+class WishlistAdmin(ModelAdmin):
     base_model = Wishlist
