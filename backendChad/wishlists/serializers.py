@@ -11,7 +11,6 @@ class WishlistSerializer(serializers.ModelSerializer):
             'slug',
             'date',
             'user',
-            'items',
         ]
 
 class ItemsOnWishlistSerializer(serializers.ModelSerializer):
