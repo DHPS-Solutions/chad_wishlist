@@ -5,5 +5,5 @@ from items.models import Item
 
 
 @admin.register(Item)
-class PictureAdmin(ModelAdmin):
+class ItemAdmin(ModelAdmin):
     base_model = Item
